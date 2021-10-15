@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bx {
+    width: 1200px;
+    margin: auto;
+}
+
+.h1 {
+    height: 43px;
+    margin: 30px auto;
+}
+
+.logo {
+    width: 195px;
+    height: 43px;
+    float: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sy {
+    float: left;
+    margin-left: 60px;
+}
+
+.sy li {
+    float: left;
+    padding: 0 10px;
+}
+
+.sy li a {
+    display: block;
+    height: 43px;
+    padding: 0 10px;
+    line-height: 43px;
+    color: #000;
+}
+
+.sy li a:hover {
+    border-bottom: 2px solid aquamarine;
+}
+
+.search {
+    float: left;
+    margin-left: 50px;
+    width: 417px;
+    height: 43px;
+    background-color: pink;
+}
+
+.search input {
+    float: left;
+    line-height: 40px;
+    width: 349px;
+    border: aqua solid 2px;
+    border-right: none;
+    color: gray;
+    font-size: 14px;
+    padding-left: 16px;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 43px;
+    border: 0px;
+    background: url(/学成在线/images/btn.png);
+}
+
+.tx {
+    float: right;
+    line-height: 43px;
+    padding-right: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.banner {
+    background-color: #1a0468;
+    height: 423px;
+}
+
+.b2 {
+    background: url(/学成在线/images/banner2.png);
+    height: 423px;
+}
+
+.b3 {
+    float: left;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 192px;
+    height: 423px;
+}
+
+.b3 li a {
+    color: white;
+    font-size: 16px;
+}
+
+.b3 li {
+    margin: 23px auto;
+    margin-left: 20px;
+}
+
+.b3 li a span {
+    float: right;
+    margin-right: 20px;
+}
+
+.b3 li :hover {
+    color: aqua;
+}
+
+.b2 .cc {
+    width: 230px;
+    height: 300px;
+    background-color: aquamarine;
+    float: right;
+    margin-top: 50px;
+}
+
+.b2 .cc h2 {
+    background-color: #a5cde7;
+    line-height: 50px;
+    height: 50px;
+    padding-left: 50px;
+}
