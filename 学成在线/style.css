@@ -123,7 +123,7 @@ li {
 .b2 .cc {
     width: 230px;
     height: 300px;
-    background-color: aquamarine;
+    background-color: white;
     float: right;
     margin-top: 50px;
 }
@@ -133,4 +133,131 @@ li {
     line-height: 50px;
     height: 50px;
     padding-left: 50px;
+}
+
+.b2 .cc li{
+    margin: 10px 15px;
+    padding: 5px;
+    border-bottom: solid slategrey 1px;
+
+}
+
+.b2 .cc li .uld{
+    font-size: 18px;
+}
+
+.b2 .cc li .uld2{
+    font-size: 8px;
+    color: #a5a5a5;
+}
+
+.b2 .cc .ca{
+    display: inline-block;
+    border: 2px solid aqua;
+    font-size: 22px;
+    padding: 7px 52px;
+    margin-left: 16px;
+    color: rgb(4, 121, 216);
+}
+
+.hz3{
+    height: 60px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    line-height: 60px;
+}
+
+.hz3 .jptj{
+    float: left;
+    color: rgb(3, 151, 236);
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.hz3 ul{
+    float: left;
+    margin-left: 35px;
+}
+
+.hz3 ul li {
+    float: left;
+}
+
+.hz3 ul li a{
+    padding: 0 35px;
+    border-left: #ccc 1px solid;
+    color: black;
+}
+
+.hz3 .xgxq {
+    float: right;
+    margin-right: 35px;
+    color: rgb(3, 151, 236);
+    font-size: 15px;
+}
+
+.hz4 .hz4_1{
+    height: 50px;
+    margin: 5px;
+    line-height: 50px;
+}
+
+.hz4 .hz4_1 div{
+    float: left;
+    color: black;
+    font-size: 20px;
+}
+
+.hz4 .hz4_1 a{
+    float: right;
+    font-size: 15px;
+    color: #ccc;
+}
+
+
+/* 图片 */
+.hz4 td {
+    float: left;
+    width: 233px;
+    background-color: rgb(248, 246, 246) !important;
+    margin-right: 6px;
+}
+/* Think */
+.hz4  h3{
+    background-color: rgb(248, 246, 246) ;
+    margin: 10px 15px;
+    color: black;
+}
+/* 高级 */
+.hz4 .hz4_2 .gj{
+    float: left;
+    color: coral;
+    margin: 0 15px;
+    background-color: rgb(248, 246, 246) ;
+    margin-bottom: 10px;
+}
+/* 正在学习人数 */
+.hz4 .zzxx{
+    color: rgb(172, 165, 165);
+    background-color: rgb(248, 246, 246) ;
+}
+
+.hz4 .hz4_2 table .hz4_2_table {
+    float: left;
+    margin: 1px;
+    margin-bottom: 10px;
+}
+
+.hz4 td .lest{
+    margin-right: 0px;
+}
+
+.hz4 .hz4_2 table .hz4_2_table td{
+    position: relative;
+}
+
+.hz4 .hz4_2 table .hz4_2_table td .new_bq{
+    position: absolute;
+    top: 8px;
+    right: 0;
 }
