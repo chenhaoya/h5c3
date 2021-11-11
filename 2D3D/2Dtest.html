@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .aaa{
+            position: relative;
+            width: 249px;
+            height: 30px;
+            border: 1px solid black;
+        }
+
+        .bbb{
+            position: absolute;
+            top: 7px;
+            right: 10px;
+            width: 10px;
+            height: 10px;
+            border: 1px solid black;
+            border-top: none;
+            border-left: none;
+            transform: rotate(45deg);
+            transition: all 0.5s ;
+        }
+
+        .aaa:hover .bbb{
+            transform: rotate(225deg);
+        }
+
+        .ccc{
+            margin: 100px auto;
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            transition: all 0.3s;
+        }
+
+        .ccc:hover{
+            transform-origin: 0% 0%;
+            transform: rotate(360deg);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="aaa">
+        <div class="bbb"></div>
+    </div>
+
+    <div class="ccc"> </div>
+
+</body>
+</html>
